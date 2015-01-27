@@ -1,0 +1,45 @@
+{
+  "name": "assets-manager-brunch",
+  "version": "1.0.0",
+  "description": "Adds multiple assets folders support to brunch.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavanpaik/assets-manager-brunch"
+  },
+  "main": "./lib/index",
+  "author": {
+    "name": "Pavan Pai",
+    "email": "pavankumarpai@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jprichardson/node-fs-extra/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "glob": "~3.2.3",
+    "fs-extra": "~0.6.3"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "brunch",
+    "plugin",
+    "assets"
+  ],
+  "readmeFilename": "README.md",
+  "readme": "assets-manager-brunch\r\n====================\r\n\r\nAdds multiple assets folders / multiple destination support to brunch.\r\n\r\n###Install the plugin :\r\n```js\r\nnpm install --save assetsmanager-brunch\r\n```\r\n\r\n###Add assetsmanager to brunch config :\r\nAdd all assets files you want to copy. This example copy:\r\n\r\n* `app/myFolder/include`and `app/css/img` to `myFolder` public directory\r\n* all files in `app/assets/` to `myAssets` public directory\r\n\r\n\r\n```js\r\nassetsmanager: {\r\n    copyTo: {\r\n        'myFolder' : ['app/myFolder/include', 'app/css/img'],\r\n        'myAssets': ['app/assets/*']\r\n    }\r\n}\r\n```\r\n",
+  "bugs": {
+    "url": "https://github.com/pavanpaik/assets-manager-brunch/issues"
+  },
+  "homepage": "https://github.com/pavanpaik/assets-manager-brunch",
+  "_id": "assets-manager-brunch@1.0.0",
+  "dist": {
+    "shasum": "52913d1e842bcecd81f584f9d831f4a612947b35"
+  },
+  "_from": "assets-manager-brunch@>=0",
+  "_resolved": "https://registry.npmjs.org/assets-manager-brunch/-/assets-manager-brunch-1.8.1.tgz"
+}
